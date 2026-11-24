@@ -1,8 +1,26 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.kazuyak0325_sudo.twa",
-        "sha256_cert_fingerprints": ["78:79:B0:D6:A7:53:C9:8A:2C:13:AC:B2:D7:09:B1:DA:CF:6C:13:0E:7C:FC:63:BA:D6:F7:BC:F1:F9:22:7B:DC"]
-      }
-    }]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.kazuyak0325_sudo.twa",
+      "sha256_cert_fingerprints": [
+        "78:79:B0:D6:A7:53:C9:8A:2C:13:AC:B2:D7:09:B1:DA:CF:6C:13:0E:7C:FC:63:BA:D6:F7:BC:F1:F9:22:7B:DC"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.kazuyak0325_sudo.navi",
+      "sha256_cert_fingerprints": [
+        "06:11:AC:3C:DF:2B:C5:17:6E:07:47:EC:D0:66:53:B2:45:AD:C4:38:29:2A:21:68:5F:26:04:44:85:45:4C:FB"
+      ]
+    }
+  }
+]
